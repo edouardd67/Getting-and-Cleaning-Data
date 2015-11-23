@@ -18,7 +18,16 @@ B) SCRIPT DESCRIPTION:
   We generate a Vector thatr identify those columns. Then we generate the subset.
   We add the Feature name to the data subset
   
-  3) Uses descriptive activity names to name the activities in the data set
+  3) Uses descriptive activity names to name the activities in the data set:
+  We read and create a DF with the Activity names
+  
+  4) Appropriately label the data set with descriptive variable names:
+  We column bind all three files, already with the respective column names: subject, y_data, x_data
+  We use GSUB and Regular Expression to clean the Colum names
+  
+  "final_data" is the Data we expect to have on this step.
+  
+  
   
   
   
