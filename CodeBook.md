@@ -9,6 +9,18 @@ B) SCRIPT DESCRIPTION:
   Download and unzip the datasets
   
   1) Merges the training and the test sets to create one data set:
+  From files we create the DF for each file, X, Y and Subject from Train and Test
+  We bind the Train and Test data. We get a new set of files.
+  
+  2) Extracts only the measurements on the mean and standard deviation for each measurement:
+  We read and create the DF from the file that have the relationship beweeen the feature # and feature name.
+  We use GREEP and Regular Expression to keep only the MEAN and STD DEV columns.
+  We generate a Vector thatr identify those columns. Then we generate the subset.
+  We add the Feature name to the data subset
+  
+  3) Uses descriptive activity names to name the activities in the data set
+  
+  
   
   
   
