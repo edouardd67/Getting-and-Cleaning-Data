@@ -28,10 +28,9 @@ B) SCRIPT DESCRIPTION:
   "final_data" is the Data we expect to have on this step.
   
   
-  
-  
-  
-  
+  5) Create a second, independent tidy data set with the average of each variable for each activity and each subject:
+  We use ddply to aggregate subject and activity, and calculate the mean.
+  We generate the "Average_Tidy_data.txt"
   
 
 
